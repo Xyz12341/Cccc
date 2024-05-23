@@ -12,10 +12,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Moonshining6")
-BOT_USERNAME = getenv("BOT_USERNAME", "KittyxMusic_bot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Lostspidey)
+BOT_USERNAME = getenv("BOT_USERNAME", "SpideyxMusic_bot")
 BOT_NAME = getenv("BOT_NAME", "𝐊íԵԵყ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "KittyxAssistant")
+ASSUSERNAME = getenv("ASSUSERNAME", "SpideyxAssistant")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
@@ -23,7 +23,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 PLAYHT_API = getenv("PLAYHT_API")
-OWNER_ID = int(getenv("OWNER_ID", 7006715434))
+OWNER_ID = int(getenv("OWNER_ID", 6768574169))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Kittyxupdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Grandxmasti")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/racistbois")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/racistbois")
 
 # Server limits and configurations - These can be set based on your server configurations
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
@@ -80,21 +80,21 @@ autoclean = []
 confirmer = {}
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
 )
 PING_VID_URL = getenv(
     "PING_VID_URL", "https://telegra.ph/file/327e1f0db4be4c0796746.mp4"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/f462547a7607df8423deb.png"
-STATS_IMG_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/634e3ba7e32808c97ac88.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/ee28e3312f39c36f863e1.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
